@@ -17,12 +17,12 @@ spec:
           env:
             -
               name: MIN_PORT
-              value: 30000
+              value: '30000'
             -
               name: MAX_PORT
-              value: 30050
+              value: '30050'
             -
               name: PUBLIC_IP
-              value: licode
+              value: 'licode'
           image: carlosprietorebollo/licode:latest
           name: licode-container
